@@ -1,0 +1,102 @@
+html body {
+    margin: 0;
+    padding: 0;
+
+    font-family: "Nunito", Helvetica, sans-serif;
+}
+
+.nav-bar {
+    width: 100%;
+    height: 4rem;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+
+    text-align: center;
+    font-size: 0;
+
+    background-color: #303030;
+}
+
+.nav-bar li {
+    display: inline-block;
+    width: 5rem;
+    height: 100%;
+
+    border-style: none solid none solid;
+    border-width: thin;
+    border-color: #555555;
+}
+
+.nav-bar li a {
+    display: block;
+    height: 100%;
+}
+
+.nav-bar li a:hover {
+    background-color: #555555;
+}
+
+.selected {
+    background-color: #AA3939;
+}
+
+.nav-bar li i {
+    padding-top: 0.5rem;
+
+    font-size: 2.5rem;
+    color: white;
+}
+
+.head {
+    height: 40rem;
+    padding-top: 10rem;
+
+    background-size: cover;
+    background-image: url("../images/iceland-skim-rock.jpg");
+}
+
+.title-container {
+    width: 100%;
+    padding: 1rem;
+
+    text-align: center;
+
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    box-shadow: 0 0 3rem #AA3939;
+}
+
+.title {
+    font-size: 8vw;
+}
+
+.title-sub {
+    font-size: 3vw;
+}
+
+.content {
+    font-size: 1.5rem;
+    text-align: center;
+    color: grey;
+
+    background-color: white;
+}
+
+.main {
+    width: 60%;
+    margin: auto;
+    padding: 2rem;
+}
+
+.face-image {
+    width:20rem;
+
+    border-radius: 10rem;
+}
+
+.footer {
+    background-color: #AA3939;
+    height: 2em;
+}
