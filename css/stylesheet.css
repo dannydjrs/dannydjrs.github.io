@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'adam.cg_proregular';
+    src: url('adam.cg_pro-webfont.woff2') format('woff2'),
+         url('adam.cg_pro-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html body {
     margin: 0;
     padding: 0;
@@ -17,6 +25,8 @@ html body {
     font-size: 0;
 
     background-color: #303030;
+
+    z-index: 9;
 }
 
 .nav-bar li {
@@ -59,21 +69,24 @@ html body {
 
 .title-container {
     width: 100%;
-    padding: 1rem;
+    padding: 1rem 0 1rem 0;
 
     text-align: center;
-
-    border-top-left-radius: 1rem;
-    border-bottom-left-radius: 1rem;
-    box-shadow: 0 0 3rem #AA3939;
+    color: white;
+    /* box-shadow: 0 0 3rem #AA3939;*/
+    background-color: black;
+    opacity: 0.6;
 }
 
 .title {
     font-size: 8vw;
+    font-family: 'adam.cg_proregular';
+    font-weight: bold;
 }
 
 .title-sub {
-    font-size: 3vw;
+    font-size: 2rem;
+    font-family: 'adam.cg_proregular';
 }
 
 .content {
