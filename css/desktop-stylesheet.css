@@ -137,41 +137,4 @@
         position: fixed;
         bottom: 0%;
     }
-
-    .project-content {
-        height: 100%;
-        width: 100%;
-
-        margin-bottom: 2rem;
-
-        background-color: white;
-    }
-
-    .projects {
-        height: 100%;
-        display: inline-block;
-        text-align: center;
-    }
-
-    .github-image {
-        border: 5px solid transparent;
-        border-radius: 20rem;
-        width: 10rem;
-        margin: 5px;
-    }
-
-    .caption {
-        font-size: 1rem;
-        display: block;
-    }
-
-    .github-image:hover {
-        border: 5px solid red;
-        border-radius: 20rem;
-    }
-
-    .snake {
-        height: 100%;
-        display: inline-block;
-    }
 }
