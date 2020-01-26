@@ -145,4 +145,24 @@
         bottom: 0%;
         margin: 0;
     }
+
+    .contact-container {
+        margin-top: 2rem;
+        padding: 0.5rem;
+    }
+
+    .contact {
+        margin-bottom: 2rem;
+        text-align: left;
+    }
+
+    .contact-type {
+        display: inline-block;
+        font-weight: bold;
+        width: 20%;
+    }
+
+    .contact-value {
+        display: inline-block;
+    }
 }
