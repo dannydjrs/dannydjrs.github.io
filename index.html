@@ -1,38 +1,239 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-    <link rel="stylesheet" href="css/desktop-stylesheet.css">
-    <link rel="stylesheet" href="css/mobile-stylesheet.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-  </head>
-  <body>
-    <ul class="nav-bar">
-        <li><a class="selected" href=#><i class="material-icons">person</i></a></li>
-        <li><a href="https://github.com/dannydjrs"><i class="material-icons">code</i></a></li>
-        <li><a href="info.html"><i class="material-icons">info</i></a></li>
-        <li><a href="contact.html"><i class="material-icons">email</i></a></li>
-    </ul>
-    <div class='head'>
-        <div class='title-container'>
-            <div class='title'> Daniel Smith </div>
-            <div class='title-sub'> Software Engineer </div>
-        </div>
-    </div>
-    <div class="content">
-        <div class="main">
-            <h1 class="heading coloured"> PROFILE </h1>
-
-            <img class="face-image" src="images/face-image.jpg" alt="An image of me">
-
-            <p> Knowledgable Computer Science student at the <b>University of Warwick</b> with a passion for developing <b>clean, organised, efficient</b> software. Experienced with technology and writing code; confident in <b>problem solving</b> and innovating. Proven ability to work effectively in a team and <b>help lead others</b> to provide successful projects. Aims to further knowledge of <b>software engineering</b> at an industry standard. </p>
-            <p> Currently completing the <b>MEng Computer Science</b> course and expect to graduate in June 2021. </p>
-        </div>
-    </div>
-    <div class="footer">
-
-    </div>
-  </body>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Daniel Smith | Resume</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/custom.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <header class="container-fluid">
+            <div class="row header-top">
+                <div class="col-12">
+                    <div class="quote">
+                        <span class="text">"It works on my machine"</span>
+                        <span class="author">Anonymous</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row header-bottom">
+                <div class="col-md-12">
+                    <div class="title-container">
+                        <h1>Daniel Smith</h1>
+                        <h6>Software Engineer</h6>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <nav class="container-fluid">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#code">Code</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <main class="container">
+            <div class="row">
+                <div class="col-md-8 banner-container">
+                    <div class="banner">
+                        <img src="images/iceland-skim-rock.jpg" alt="A landscape image of me in Iceland" />
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="adjectives">
+                        <ul>
+                            <li><span style="color: #FF9900;">&#9656;</span>Computer Scientist</li>
+                            <li><span style="color: #FF9900;">&#9656;</span>University of Warwick</li>
+                            <li><span style="color: #FF9900;">&#9656;</span>Masters of Engineering</li>
+                            <li><span>&#10003;</span>Knowledgable</li>
+                            <li><span>&#10003;</span>Innovative</li>
+                            <li><span>&#10003;</span>Motivated</li>
+                            <li><span>&#10003;</span>Efficient</li>
+                            <li><span>&#10003;</span>Organised</li>
+                            <li><span>&#10003;</span>Experienced</li>
+                            <li><span>&#10003;</span>Passionate</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row separator">
+                <div class="col-md-12">
+                    <h2>Available for hire!</h2>
+                </div>
+            </div>
+            <div class="row description" id="about">
+                <div class="col-md-12">
+                    <h3>About me</h3>
+                    <p>
+                        Knowledgable Computer Science student at the
+                        <b>University of Warwick</b> with a passion for
+                        developing <b>clean, organised, efficient</b>
+                        software. Experienced with technology and writing
+                        code; confident in <b>problem solving</b> and
+                        innovating. Proven ability to work effectively in a
+                        team and <b>help lead others</b> to provide
+                        successful projects. Aims to further knowledge of
+                        <b>software engineering</b> at an industry
+                        standard.
+                    </p>
+                    <p>
+                        Currently completing the <b>MEng Computer
+                        Science</b> course and expect to graduate
+                        in June 2021.
+                    </p>
+                </div>
+            </div>
+            <div class="row separator">
+                <div class="col-md-12">
+                    <h2>Better at debugging than a rubber duck!</h2>
+                </div>
+            </div>
+            <div class="row experience" id="code">
+                <div class="col-md-6">
+                    <div class="tile link">
+                        <a href="https://warwick.ac.uk/" target="_blank">
+                            <img style="border-radius: 30px" src="images/warwick-icon.png" />
+                            <h4>University of Warwick</h4>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="tile link">
+                        <a href="https://github.com/dannydjrs" target="_blank">
+                            <img style="width: 100%;" src="images/mark-github.svg" />
+                            <h4>Github</h4>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row separator">
+                <div class="col-md-12">
+                    <div class="quote">
+                        <span class="text">"The best thing about a boolean, is even if you are wrong, you are only off by a bit."</span>
+                        <span class="author">Anonymous</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row languages">
+                <div class="col-md-12" style="text-align: center;">
+                    <h3>Knowledge Base</h3>
+                </div>
+                <div class="col-md-3">
+                    <div class="tile">
+                        <img src="images/java.png" alt="Java Programming Language Logo" />
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="tile">
+                        <img src="images/python.png" alt="Python Programming Language Logo" />
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="tile">
+                        <img src="images/c-language.png" alt="Python Programming Language Logo" />
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="tile">
+                        <img src="images/sql.png" alt="SQl Logo" />
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="tile">
+                        <img src="images/php.png" alt="PHP Programming Language Logo" />
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="tile">
+                        <img src="images/html.png" alt="HTML Markup Language Logo" />
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="tile">
+                        <img src="images/css.png" alt="CSS Language Logo" />
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="tile">
+                        <img src="images/js.png" alt="Javascript Programming Language Logo" />
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="tile">
+                        <img src="images/unix.png" alt="SQl Logo" />
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="tile">
+                        <img src="images/git.png" alt="Git Logo" />
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="tile">
+                        <img src="images/bash.png" alt="Bash Scripting Logo" />
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="tile">
+                        <img src="images/construction.png" alt="Under construction" />
+                    </div>
+                </div>
+            </div>
+            <div class="row separator">
+                <div class="col-md-12">
+                    <h2>CONTACT ME FOR MORE INFORMATION</h2>
+                </div>
+            </div>
+            <div class="row contact" id="contact">
+                <div class="col-md-12">
+                    <ul>
+                        <li><a href="https://twitter.com/dannydjrs" target="_blank" class="fa fa-twitter"></a></li>
+                        <li><a href="https://www.linkedin.com/in/dannydjrs/" target="_blank" class="fa fa-linkedin"></a></li>
+                        <li><a href="mailto:dj-smith08@hotmail.co.uk" class="fa fa-envelope"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+        <footer class="container-fluid">
+            <div class="row footer-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <img src="images/face-image.jpg" style="width: 100px; margin-bottom: 30px; border-radius: 50px;"/>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <p>Links</p>
+                            <ul>
+                                <li><span>&#9656;</span><a href="#about">About me</a></li>
+                                <li><span>&#9656;</span><a href="#code">Portfolio</a></li>
+                                <li><span>&#9656;</span><a href="#contact">Contact me</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <p>Contact</p>
+                            <ul>
+                                <li><span>&#9656;</span><a href="https://twitter.com/dannydjrs">Twitter</a></li>
+                                <li><span>&#9656;</span><a href="https://www.linkedin.com/in/dannydjrs/">LinkedIn</a></li>
+                                <li><span>&#9656;</span><a href="mailto:dj-smith08@hotmail.co.uk">E-Mail</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <p>Recursion</p>
+                            <ul>
+                                <li><span>&#9656;</span><a href="#">Click here</a></li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row footer-bottom">
+                <div class="container">
+                    Created by Daniel Smith
+                </div>
+            </div>
+        </footer>
+    </body>
 </html>
