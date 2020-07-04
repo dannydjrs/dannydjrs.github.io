@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/custom.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script type="text/javascript" src="js/jquery.min.js"></script>
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
     </head>
     <body>
@@ -43,20 +44,63 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="adjectives">
-                        <ul>
-                            <li><span style="color: #FF9900;">&#9656;</span>Computer Scientist</li>
-                            <li><span style="color: #FF9900;">&#9656;</span>University of Warwick</li>
-                            <li><span style="color: #FF9900;">&#9656;</span>Masters of Engineering</li>
-                            <li><span>&#10003;</span>Knowledgable</li>
-                            <li><span>&#10003;</span>Innovative</li>
-                            <li><span>&#10003;</span>Motivated</li>
-                            <li><span>&#10003;</span>Efficient</li>
-                            <li><span>&#10003;</span>Organised</li>
-                            <li><span>&#10003;</span>Experienced</li>
-                            <li><span>&#10003;</span>Passionate</li>
-                        </ul>
-                    </div>
+                    <ul id="adjectivesAccordian" class="adjectives accordian">
+                        <li class="adjectives-item">
+                            <div data-target="#adjectiveCollapse1" data-toggle="collapse" aria-expanded="false" aria-controls="adjectiveCollapse1">
+                                <span class="icon orange">&#9656;</span>Computer Scientist
+                            </div>
+                            <div id="adjectiveCollapse1" class="collapse" aria-labelledby="adjectiveHeading1" data-parent="#adjectivesAccordian">
+                                <ul class="additional">
+                                    <li class="additional-item"><b>Grade A</b> - WJEC Computing (A-level)</li>
+                                    <li class="additional-item"><b>Master of Engineering</b> - Computer Science</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="adjectives-item">
+                            <div data-target="#adjectiveCollapse2" data-toggle="collapse" aria-expanded="false" aria-controls="adjectiveCollapse2">
+                                <span class="icon orange">&#9656;</span>University of Warwick
+                            </div>
+                            <div id="adjectiveCollapse2" class="collapse" aria-labelledby="adjectiveHeading2" data-parent="#adjectivesAccordian">
+                                <ul class="additional">
+                                    <li class="additional-item"><a href="https://www.timeshighereducation.com/news/ref-2014-results-table-of-excellence/2017590.article" target="_blank"><b>"University of the Year"</b> - The Times and Sunday Times Good University Guide</a></li>
+                                    <li class="additional-item"><a href="https://warwick.ac.uk/fac/sci/dcs/admissions"><b>1st</b> in UK for scientific outputs</a></li>
+                                    <li class="additional-item"><a href="https://www.ref.ac.uk/"><b>2nd</b> in UK for computing research</a></li>
+                                    <li class="additional-item"><a href="https://www.thecompleteuniversityguide.co.uk/league-tables/rankings" target="_blank"><b>Top Ten</b> UK University</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="adjectives-item">
+                            <div data-target="#adjectiveCollapse3" data-toggle="collapse" aria-expanded="false" aria-controls="adjectiveCollapse3">
+                                <span class="icon orange">&#9656;</span>Masters of Engineering
+                            </div>
+                            <div id="adjectiveCollapse3" class="collapse" aria-labelledby="adjectiveHeading3" data-parent="#adjectivesAccordian">
+                                <ul class="additional">
+                                    <li class="additional-item">The highest award for undergraduate studies in engineering</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="adjectives-item">
+                            <span class="icon green">&#10003;</span>Knowledgable
+                        </li>
+                        <li class="adjectives-item">
+                            <span class="icon green">&#10003;</span>Innovative
+                        </li>
+                        <li class="adjectives-item">
+                            <span class="icon green">&#10003;</span>Motivated
+                        </li>
+                        <li class="adjectives-item">
+                            <span class="icon green">&#10003;</span>Efficient
+                        </li>
+                        <li class="adjectives-item">
+                            <span class="icon green">&#10003;</span>Organised
+                        </li>
+                        <li class="adjectives-item">
+                            <span class="icon green">&#10003;</span>Experienced
+                        </li>
+                        <li class="adjectives-item">
+                            <span class="icon green">&#10003;</span>Passionate
+                        </li>
+                    </ul>
                 </div>
             </div>
             <div class="row separator">

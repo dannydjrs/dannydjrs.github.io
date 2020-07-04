@@ -83,11 +83,11 @@ main {
     background-color: white;
 }
 
-.adjectives ul {
+.adjectives {
     list-style: none;
 }
 
-.adjectives ul li {
+.adjectives-item {
     border: 1px solid #cccccc;
     border-radius: 3px;
     font-family: 'adam.cg_proregular';
@@ -95,9 +95,34 @@ main {
     margin-bottom: 10px;
 }
 
-.adjectives ul li span {
+.adjectives-item div {
+    font-family: 'adam.cg_proregular';
+}
+
+.adjectives .additional {
+    font-size: 14px;
+    list-style-position: inside;
+}
+
+.additional-item {
+    margin-top: 5px;
+}
+
+.additional-item a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+.icon {
     margin-right: 20px;
+}
+
+.icon.green {
     color: #008000;
+}
+
+.icon.orange {
+    color: #FF9900;
 }
 
 .banner-container {
