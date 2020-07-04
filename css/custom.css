@@ -1,7 +1,6 @@
 @font-face {
     font-family: 'adam.cg_proregular';
-    src: url('adam.cg_pro-webfont.woff2') format('woff2'),
-        url('adam.cg_pro-webfont.woff') format('woff');
+    src: url('adam.cg_pro-webfont.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
