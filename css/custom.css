@@ -91,12 +91,12 @@ main {
     border: 1px solid #cccccc;
     border-radius: 3px;
     font-family: 'adam.cg_proregular';
-    padding: 10px 15px;
     margin-bottom: 10px;
 }
 
 .adjectives-item div {
     font-family: 'adam.cg_proregular';
+    padding: 10px 15px;
 }
 
 .adjectives .additional {
