@@ -19,9 +19,20 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'adam.cg_proregular';
 }
 
+header {
+    border-bottom: #d33734 dashed 8px;
+    margin-bottom: 2em;
+}
+
 .header-top {
     text-align: right;
-    padding: 5px;
+    padding: 1em;
+}
+
+.header-bottom {
+    background-color: #ffffff;
+    border-radius: 10em 10em 0 0;
+    padding: 6em 1em;
 }
 
 .quote .text {
@@ -32,54 +43,26 @@ h1, h2, h3, h4, h5, h6 {
     content: " - ";
 }
 
-.header-bottom {
-    background-color: #ffffff;
-    padding: 32px 5px;
-}
-
-.title-container {
-    display: block;
-    height: 100%;
-    text-align: center;
-    width: 100%;
-}
-
-nav {
-    background-color: #244a93;
+.contact {
     text-align: center;
 }
 
-@media screen and (min-width: 725px) {
-    nav {
-        text-align: left;
-    }
-}
-
-nav ul {
+.contact ul {
     list-style: none;
+    padding: 0;
     margin: 0;
 }
 
-nav ul li {
-    color: white !important;
+.contact ul li {
     display: inline-block;
-    padding: 10px 20px;
 }
 
-nav ul li a {
-    color: inherit;
-    display: block;
-    height: 100%;
-    width: 100%;
-}
-
-nav ul li:hover {
-    background-color: white;
-    color: #244a93 !important;
+.title-container {
+    text-align: center;
 }
 
 main {
-    padding-top: 25px;
+    padding-top: 3em;
     background-color: white;
 }
 
@@ -92,15 +75,14 @@ main {
     border-radius: 3px;
     font-family: 'adam.cg_proregular';
     margin-bottom: 10px;
+    padding: 10px 15px;
 }
 
 .adjectives-item div {
     font-family: 'adam.cg_proregular';
-    padding: 10px 15px;
 }
 
 .adjectives .additional {
-    font-size: 14px;
     list-style-position: inside;
 }
 
@@ -115,6 +97,10 @@ main {
 
 .icon {
     margin-right: 20px;
+}
+
+.icon.red {
+    color: #ff0000
 }
 
 .icon.green {
@@ -141,7 +127,7 @@ main {
 }
 
 .separator {
-    font-size: 2rem;
+    font-size: 2em;
     margin: 75px 0;
     text-align: center;
 }
@@ -173,8 +159,8 @@ main {
 .description {
     border: 1px solid #cccccc;
     border-radius: 5px;
-    font-size: 20px;
     padding: 50px 10px;
+    margin-bottom: 10px;
     text-align: center;
 }
 
@@ -202,10 +188,6 @@ main {
     margin-bottom: 5px;
 }
 
-.tile.link h4 {
-    font-size: 20px;
-}
-
 .tile.link:hover {
     background-color: #f3f3f3;
 }
@@ -221,21 +203,8 @@ main {
     max-width: 100%;
 }
 
-.contact {
-    text-align: center;
-}
-
-.contact ul {
-    list-style: none;
-}
-
-.contact ul li {
-    display: inline-block;
-}
-
 .fa {
   padding: 20px;
-  font-size: 30px;
   width: 50px;
   text-align: center;
   text-decoration: none;
@@ -263,29 +232,6 @@ main {
 
 footer {
     color: white;
-}
-
-.footer-top {
-    background-color: #333333;
-    border-top: 0.1rem solid #000000;
-    padding: 50px 0;
-}
-
-.footer-top ul {
-    color: #ffffff;
-    list-style: none;
-}
-
-.footer-top ul li a {
-    color: inherit;
-}
-
-.footer-top span {
-    margin-right: 25px;
-}
-
-.footer-bottom {
     background-color: #d33734;
-    border-top: 0.1rem solid #000000;
     padding: 10px 0;
 }
