@@ -10,7 +10,6 @@
         <meta name="theme-color" content="#d33734">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/custom.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script type="text/javascript" src="js/jquery.min.js"></script>
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
     </head>
@@ -36,8 +35,9 @@
                 <div class="row contact" id="contact">
                     <div class="col-md-12">
                         <ul>
-                            <li><a href="https://twitter.com/dannydjrs" target="_blank" class="fa fa-twitter"></a></li>
-                            <li><a href="https://www.linkedin.com/in/dannydjrs/" target="_blank" class="fa fa-linkedin"></a></li>
+                            <li><a href="https://twitter.com/dannydjrs" target="_blank" class="social"><img src="img/twitter-logo.svg" alt="Twitter logo"/></a></li>
+                            <li><a href="https://www.linkedin.com/in/dannydjrs/" target="_blank" class="social"><img src="img/linkedin-logo.svg" alt="LinkedIn logo"/></a></li>
+                            <li><a href="https://github.com/dannydjrs" target="_blank" class="social"><img src="img/mark-github.svg" alt="Github logo"/></a></li>
                         </ul>
                     </div>
                 </div>
@@ -60,17 +60,17 @@
                             innovative approaches to <b>problem solving</b>. I have 
                             proven ability as a <b>team member</b>, and taking a lead 
                             role as required, in developing successful project 
-                            outcomes with minimal supervision. 
+                            outcomes with minimal supervision.
                         </p>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <ul id="adjectivesAccordian" class="adjectives accordian">
                         <li class="adjectives-item">
-                            <div data-target="#adjectiveCollapse1" data-toggle="collapse" aria-expanded="false" aria-controls="adjectiveCollapse1">
+                            <div data-target="#adjectiveCollapse1" data-toggle="collapse" aria-expanded="true" aria-controls="adjectiveCollapse1">
                                 <span class="icon orange">&#9656;</span>Computer Scientist
                             </div>
-                            <div id="adjectiveCollapse1" class="collapse" aria-labelledby="adjectiveHeading1" data-parent="#adjectivesAccordian">
+                            <div id="adjectiveCollapse1" class="collapse show" aria-labelledby="adjectiveHeading1" data-parent="#adjectivesAccordian">
                                 <ul class="additional">
                                     <li class="additional-item"><b>Grade A</b> - WJEC Computing (A-level)</li>
                                     <li class="additional-item"><b>Master of Engineering</b> - Computer Science</li>
@@ -114,20 +114,51 @@
                     <h2>Better at debugging than a rubber duck!</h2>
                 </div>
             </div>
-            <div class="row experience" id="code">
-                <div class="col-md-6">
-                    <div class="tile link">
-                        <a href="https://warwick.ac.uk/" target="_blank">
-                            <img style="border-radius: 30px" src="img/warwick-icon.png" />
-                            <h4>University of Warwick</h4>
-                        </a>
-                    </div>
+            <div class="row">
+                <div class="col-md-12" style="text-align: center;">
+                    <h3>Experience</h3>
                 </div>
-                <div class="col-md-6">
-                    <div class="tile link">
-                        <a href="https://github.com/dannydjrs" target="_blank">
-                            <img style="width: 100%;" src="img/mark-github.svg" />
-                            <h4>Github</h4>
+                <div class="col-md-12">
+                    <div id="experienceCarousel" class="carousel slide experienceCarousel" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#experienceCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#experienceCarousel" data-slide-to="1"></li>
+                            <li data-target="#experienceCarousel" data-slide-to="2"></li>
+                            <li data-target="#experienceCarousel" data-slide-to="3"></li>
+                          </ol>
+                        <div class="carousel-inner" style="height: 400px;">
+                            <div class="carousel-item active" style="background-color: #aaaaaa;">
+                                <img src="img/warwick-uni-logo.png" alt="University of Warwick logo" />
+                                <div class="carousel-caption">
+                                    <h5>2016-2021</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item" style="background-color: #1d1f33;">
+                                <img src="img/magic42-logo.png" alt="magic42 logo"/>
+                                <div class="carousel-caption">
+                                    <h5>2019-2020</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item" style="background-color: #25384e;">
+                                <img src="img/pathlake-logo.png" alt="Pathlake logo" />
+                                <div class="carousel-caption">
+                                    <h5>2020-2021</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item" style="background-color: #1B2A3C;">
+                                <img src="img/4cstrategies-logo.svg" alt="4CStrategies logo" />
+                                <div class="carousel-caption">
+                                    <h5>2021-Present</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#experienceCarousel" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#experienceCarousel" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
                         </a>
                     </div>
                 </div>
@@ -201,7 +232,7 @@
                 </div>
                 <div class="col-md-3">
                     <div class="tile">
-                        <img src="img/construction.png" alt="Under construction" />
+                        <img src="img/languages/construction.png" alt="Under construction" />
                     </div>
                 </div>
             </div>

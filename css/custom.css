@@ -57,6 +57,20 @@ header {
     display: inline-block;
 }
 
+.social {
+    display: block;
+    text-align: center;
+    margin: 5px 2px
+}
+
+.social img {
+    width: 50px;
+}
+
+.social:hover {
+    opacity: 0.7;
+}
+
 .title-container {
     text-align: center;
 }
@@ -111,49 +125,10 @@ main {
     color: #FF9900;
 }
 
-.banner-container {
-    margin-bottom: 25px;
-    padding: 0;
-}
-
-@media screen and (min-width: 725px) {
-    .banner-container {
-        padding: 0 15px;
-    }
-}
-
-.banner img {
-    width: 100%
-}
-
 .separator {
     font-size: 2em;
     margin: 75px 0;
     text-align: center;
-}
-
-.subtitle-container {
-    text-align: center;
-}
-
-.lined::before,
-.lined::after {
-    content: " ";
-    background: #333;
-    display: inline-block;
-    height: 2px;
-    position: absolute;
-    margin: 0 10px;
-    top: 50%;
-    width: 80%;
-}
-
-.lined::before {
-    left: 100%;
-}
-
-.lined::after {
-    right: 100%;
 }
 
 .description {
@@ -164,8 +139,28 @@ main {
     text-align: center;
 }
 
-.experience {
-    margin-bottom: 50px;
+.experienceCarousel .carousel-item {
+    background-color: #cccccc;
+    padding: 50px;
+    height: 100%;
+}
+
+.experienceCarousel .carousel-item img {
+    display: block;
+    margin: auto;
+    min-height: 30%;
+    max-height: 70%;
+    max-width: 100%;
+}
+
+.experienceCarousel .carousel-control-next:hover {
+    background: linear-gradient(to right, transparent, #ffffff);
+    opacity: 0.3;
+}
+
+.experienceCarousel .carousel-control-prev:hover {
+    background: linear-gradient(to left, transparent, #ffffff);
+    opacity: 0.3;
 }
 
 .languages {
@@ -201,33 +196,6 @@ main {
 .tile img, .tile-link img {
     max-height: 100%;
     max-width: 100%;
-}
-
-.fa {
-  padding: 20px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-}
-
-.fa:hover {
-    opacity: 0.7;
-}
-
-.fa-envelope {
-    background-color: #33DDFF;
-    color: #ffffff;
-}
-
-.fa-twitter {
-  background: #55ACEE;
-  color: #ffffff;
-}
-
-.fa-linkedin {
-    background: #007bb5;
-    color: #ffffff;
 }
 
 footer {
